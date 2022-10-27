@@ -1,0 +1,75 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.canvas {
+  background-color: #DDDDDD;
+}
+
+.canvasDiv {
+  margin-top: 40px;
+  margin-left: 40px;
+}
+
+.side-by-side-box {
+  display: flex;
+}
+
+.sidebar-checkboxes {
+  margin-top: 40px;
+  width: 300px;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.stat-box-div {
+  margin-top: 30px;
+}
+
+.indi-stat-div {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.app-div {
+  margin-left: 10px;
+}
+
+.points-box {
+  margin-top: 40px;
+}
+
+.points-box-td {
+  width: 70px;
+}
+
+.point-input {
+  width: 70px;
+}
+
+.remove-btn {
+  background-color: red;
+}
+
+.export-btn-div {
+  margin-top: 60px;
+}
