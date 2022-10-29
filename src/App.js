@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import NameBox from './component/NameBox';
 
 const WIDTH = 940;
 const HEIGHT = 525;
@@ -415,15 +416,9 @@ class App extends Component {
         }
 
         return (
-            <div
-                className="app-div"
-            >
-                <div
-                    className="side-by-side-box"
-                >
-                    <div
-                        className="sidebar-checkboxes"
-                    >
+            <div className="app-div">
+                <div className="side-by-side-box">
+                    <div className="sidebar-checkboxes">
                         <table>
                             <tbody>
                                 <tr>
@@ -536,6 +531,8 @@ class App extends Component {
                                 </tbody>
                             </table>
                         </div>
+                        <br />
+                        <NameBox />
                         <div className="export-btn-div">
                             <button onClick={downloadCsv}>Export Points as CSV</button> 
                         </div>
