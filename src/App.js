@@ -190,8 +190,8 @@ class App extends Component {
         const minMaxVals = this.minMaxValues(points);
         const minX = this.anchorOrigin ? 1 : minMaxVals[0];
         const maxX = minMaxVals[1];
-        const minY = this.anchorOrigin ? 1 : minMaxVals[2];
-        const maxY = minMaxVals[3];
+        const minY = Math.floor(this.anchorOrigin ? 1 : minMaxVals[2]);
+        const maxY = Math.ceil(minMaxVals[3]);
 
         const xRange = (maxX - minX) || 0;
         const yRange = (maxY - minY) || 0;
